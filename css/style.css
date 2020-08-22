@@ -1,0 +1,117 @@
+@charset "utf-8";
+* {
+	box-sizing:border-box;
+}
+
+/* CSS HEADER */
+header {
+	display: flex;
+	align-items: center;
+}
+
+div.ads {
+	display: flex;
+}
+
+div.ads > div {
+	width: 33.33%;
+	text-align:center;
+	border: 1px dashed darkblue;
+	padding: 40px 10px;
+}
+
+div.ctrl {
+	text-align:right;
+}
+
+.col10 {
+	width: 10%;
+}
+
+.col30 {
+	width: 30%;
+}
+
+/* CSS NAV */
+nav {
+	background-color:#09F;
+}
+
+ul.menu {
+	list-style-type:none;
+	padding: 0;
+	margin: 0;
+	display:flex;
+}
+
+ul.menu > li {
+	border-right:1px solid white;
+	min-width:150px;
+	text-align:center;
+}
+
+ul.menu > li > a{
+	display:block;
+	padding: 20px 10px;
+	text-decoration:none;
+	color: #FFF;
+}
+
+ul.menu > li > a:hover {
+	background-color:#003;
+}
+
+/* CSS CONTENT */
+.col20 {
+	width: 20%;
+}
+
+.col80 {
+	width: 80%;
+}
+
+.center {
+	text-align:center;
+}
+
+section.content {
+	display:flex;
+	background-color:#0CC;
+}
+
+ul.vertical  {
+	flex-direction: column;
+}
+
+ul.vertical > li {
+	border-right:none;
+	text-align:left;
+}
+
+ul.vertical > li > a {
+	background: linear-gradient(#039, #0FF);
+}
+
+ul.vertical > li > a:hover {
+	background: #003;
+}
+
+div.books {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+div.book {
+	width: 20%;
+	text-align:center;
+	padding: 1%;
+}
+
+figure {
+	margin: 0;
+}
+
+div.book img {
+	width: 100%;
+}
+
